@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "kim": ["read_log", "write_log", "manage_security"],
+    "lee": ["read_log", "admin"],
+    "park": ["read_log"],
+    "choi": ["read_log", "export_data"]
+  },
+  "logs": [
+    { "username": "kim", "permission": "read_log", "used_at": "2026-09-10" },
+    { "username": "kim", "permission": "write_log", "used_at": "2026-09-01" },
+    { "username": "kim", "permission": "manage_security", "used_at": "2026-05-01" },
+    { "username": "lee", "permission": "read_log", "used_at": "2026-09-15" },
+    { "username": "lee", "permission": "admin", "used_at": "2026-04-01" },
+    { "username": "park", "permission": "read_log", "used_at": "2026-01-01" },
+    { "username": "choi", "permission": "read_log", "used_at": "2026-09-20" }
+  ]
+}

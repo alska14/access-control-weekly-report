@@ -1,0 +1,57 @@
+[
+    {
+        "request_id": "REQ-001",
+        "user": "kim",
+        "department": "개발팀",
+        "system": "개발 시스템",
+        "permission_level": "수정",
+        "status": "승인",
+        "created_at": "2026-09-22 09:00",
+        "approver": "lee",
+        "sla_hours": 4
+    },
+    {
+        "request_id": "REQ-002",
+        "user": "park",
+        "department": "인사팀",
+        "system": "인사 시스템",
+        "permission_level": "조회",
+        "status": "승인",
+        "created_at": "2026-09-22 09:30",
+        "approver": "choi",
+        "sla_hours": 8
+    },
+    {
+        "request_id": "REQ-003",
+        "user": "lee",
+        "department": "보안팀",
+        "system": "보안 시스템",
+        "permission_level": "관리자",
+        "status": "반려",
+        "created_at": "2026-09-22 10:00",
+        "approver": "kim",
+        "sla_hours": 4
+    },
+    {
+        "request_id": "REQ-004",
+        "user": "choi",
+        "department": "개발팀",
+        "system": "테스트 시스템",
+        "permission_level": "조회",
+        "status": "반려",
+        "created_at": "2026-09-22 10:30",
+        "approver": "lee",
+        "sla_hours": 8
+    },
+    {
+        "request_id": "REQ-005",
+        "user": "jung",
+        "department": "운영팀",
+        "system": "운영 시스템",
+        "permission_level": "수정",
+        "status": "승인",
+        "created_at": "2026-09-22 11:00",
+        "approver": "choi",
+        "sla_hours": 4
+    }
+]

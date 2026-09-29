@@ -1,0 +1,174 @@
+{
+  "generated_at": "2026-09-29",
+  "rbac_status": {
+    "total_roles": 4,
+    "roles": [
+      "개발팀",
+      "인사팀",
+      "보안팀",
+      "운영팀"
+    ],
+    "total_users": 4,
+    "user_roles": {
+      "kim": "개발팀",
+      "lee": "인사팀",
+      "park": "보안팀",
+      "choi": "운영팀"
+    }
+  },
+  "policy_violations": {
+    "count": 3,
+    "items": [
+      {
+        "request_id": "REQ-003",
+        "user": "lee",
+        "system": "보안 시스템",
+        "permission_level": "관리자",
+        "status": "반려",
+        "reason": "정책 위반이며 유효한 예외 승인도 없습니다."
+      },
+      {
+        "request_id": "REQ-004",
+        "user": "choi",
+        "system": "테스트 시스템",
+        "permission_level": "조회",
+        "status": "반려",
+        "reason": "정책 위반이며 유효한 예외 승인도 없습니다."
+      },
+      {
+        "request_id": "REQ-005",
+        "user": "jung",
+        "system": "운영 시스템",
+        "permission_level": "수정",
+        "status": "승인",
+        "reason": "등록되지 않은 사용자입니다."
+      }
+    ]
+  },
+  "request_status": {
+    "total_requests": 5,
+    "status_count": {
+      "승인": 3,
+      "반려": 2
+    },
+    "sla_breach_count": 0,
+    "sla_breach_ids": []
+  },
+  "overprivilege": {
+    "generated_at": "2026-09-29",
+    "criteria_days": 90,
+    "summary": {
+      "unused_permission_users": 4,
+      "unused_permission_cases": 4,
+      "department_mismatch_cases": 2,
+      "total_candidates": 6
+    },
+    "candidates": [
+      {
+        "username": "kim",
+        "type": "미사용 권한",
+        "permission": "manage_security",
+        "last_used": "2026-05-01",
+        "reason": "90일 이상 미사용"
+      },
+      {
+        "username": "lee",
+        "type": "미사용 권한",
+        "permission": "admin",
+        "last_used": "2026-04-01",
+        "reason": "90일 이상 미사용"
+      },
+      {
+        "username": "park",
+        "type": "미사용 권한",
+        "permission": "read_log",
+        "last_used": "2026-01-01",
+        "reason": "90일 이상 미사용"
+      },
+      {
+        "username": "choi",
+        "type": "미사용 권한",
+        "permission": "export_data",
+        "last_used": null,
+        "reason": "90일 이상 미사용"
+      },
+      {
+        "username": "kim",
+        "type": "부서 불일치",
+        "assigned_department": "개발팀",
+        "current_department": "보안팀",
+        "reason": "권한 부여 당시 부서와 현재 부서가 다름"
+      },
+      {
+        "username": "choi",
+        "type": "부서 불일치",
+        "assigned_department": "마케팅팀",
+        "current_department": null,
+        "reason": "권한 부여 당시 부서와 현재 부서가 다름"
+      }
+    ]
+  },
+  "revoke_history": {
+    "total_revoke_actions": 6,
+    "status_count": {
+      "회수 예정 알림": 4,
+      "승인 대기": 2
+    },
+    "logs": [
+      {
+        "username": "kim",
+        "permission": "manage_security",
+        "type": "미사용 권한",
+        "action": "즉시 알림 후 유예 회수",
+        "status": "회수 예정 알림",
+        "reason": "90일 이상 미사용",
+        "processed_at": "2026-09-29 11:02"
+      },
+      {
+        "username": "lee",
+        "permission": "admin",
+        "type": "미사용 권한",
+        "action": "즉시 알림 후 유예 회수",
+        "status": "회수 예정 알림",
+        "reason": "90일 이상 미사용",
+        "processed_at": "2026-09-29 11:02"
+      },
+      {
+        "username": "park",
+        "permission": "read_log",
+        "type": "미사용 권한",
+        "action": "즉시 알림 후 유예 회수",
+        "status": "회수 예정 알림",
+        "reason": "90일 이상 미사용",
+        "processed_at": "2026-09-29 11:02"
+      },
+      {
+        "username": "choi",
+        "permission": "export_data",
+        "type": "미사용 권한",
+        "action": "즉시 알림 후 유예 회수",
+        "status": "회수 예정 알림",
+        "reason": "90일 이상 미사용",
+        "processed_at": "2026-09-29 11:02"
+      },
+      {
+        "username": "kim",
+        "permission": "부서권한",
+        "type": "부서 불일치",
+        "action": "승인 필요",
+        "status": "승인 대기",
+        "reason": "권한 부여 당시 부서와 현재 부서가 다름",
+        "processed_at": "2026-09-29 11:02"
+      },
+      {
+        "username": "choi",
+        "permission": "부서권한",
+        "type": "부서 불일치",
+        "action": "승인 필요",
+        "status": "승인 대기",
+        "reason": "권한 부여 당시 부서와 현재 부서가 다름",
+        "processed_at": "2026-09-29 11:02"
+      }
+    ]
+  }
+}

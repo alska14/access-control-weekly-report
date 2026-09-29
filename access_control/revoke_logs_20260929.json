@@ -1,0 +1,56 @@
+[
+  {
+    "username": "kim",
+    "permission": "manage_security",
+    "type": "미사용 권한",
+    "action": "즉시 알림 후 유예 회수",
+    "status": "회수 예정 알림",
+    "reason": "90일 이상 미사용",
+    "processed_at": "2026-09-29 10:36"
+  },
+  {
+    "username": "lee",
+    "permission": "admin",
+    "type": "미사용 권한",
+    "action": "즉시 알림 후 유예 회수",
+    "status": "회수 예정 알림",
+    "reason": "90일 이상 미사용",
+    "processed_at": "2026-09-29 10:36"
+  },
+  {
+    "username": "park",
+    "permission": "read_log",
+    "type": "미사용 권한",
+    "action": "즉시 알림 후 유예 회수",
+    "status": "회수 예정 알림",
+    "reason": "90일 이상 미사용",
+    "processed_at": "2026-09-29 10:36"
+  },
+  {
+    "username": "choi",
+    "permission": "export_data",
+    "type": "미사용 권한",
+    "action": "즉시 알림 후 유예 회수",
+    "status": "회수 예정 알림",
+    "reason": "90일 이상 미사용",
+    "processed_at": "2026-09-29 10:36"
+  },
+  {
+    "username": "kim",
+    "permission": "부서권한",
+    "type": "부서 불일치",
+    "action": "승인 필요",
+    "status": "승인 대기",
+    "reason": "권한 부여 당시 부서와 현재 부서가 다름",
+    "processed_at": "2026-09-29 10:36"
+  },
+  {
+    "username": "choi",
+    "permission": "부서권한",
+    "type": "부서 불일치",
+    "action": "승인 필요",
+    "status": "승인 대기",
+    "reason": "권한 부여 당시 부서와 현재 부서가 다름",
+    "processed_at": "2026-09-29 10:36"
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "roles": {
+    "developer": [
+      "read_code",
+      "write_code",
+      "access_dev_server"
+    ],
+    "security": [
+      "read_log",
+      "manage_security"
+    ],
+    "hr": [
+      "read_employee",
+      "write_employee"
+    ]
+  },
+  "user_roles": {
+    "kim": ["developer"],
+    "lee": ["hr"],
+    "park": ["security"]
+  }
+}

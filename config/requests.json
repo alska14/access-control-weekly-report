@@ -1,0 +1,42 @@
+[
+  {
+    "request_id": "REQ-001",
+    "user": "kim",
+    "system": "개발 서버",
+    "permission_level": "수정",
+    "status": "검토중",
+    "created_at": "2026-09-21 09:00",
+    "approver": "lee",
+    "sla_hours": 4
+  },
+  {
+    "request_id": "REQ-002",
+    "user": "park",
+    "system": "인사 시스템",
+    "permission_level": "조회",
+    "status": "승인",
+    "created_at": "2026-09-21 10:00",
+    "approver": "choi",
+    "sla_hours": 8
+  },
+  {
+    "request_id": "REQ-003",
+    "user": "kim",
+    "system": "개발 서버",
+    "permission_level": "관리자",
+    "status": "검토중",
+    "created_at": "2026-09-22 09:00",
+    "approver": "lee",
+    "sla_hours": 4
+  },
+  {
+    "request_id": "REQ-003",
+    "user": "kim",
+    "system": "개발 서버",
+    "permission_level": "관리자",
+    "status": "검토중",
+    "created_at": "2026-09-22 09:00",
+    "approver": "lee",
+    "sla_hours": 4
+  }
+]

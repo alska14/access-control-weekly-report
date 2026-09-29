@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-09-23",
+  "criteria_days": 90,
+  "summary": {
+    "unused_permission_users": 4,
+    "unused_permission_cases": 4,
+    "department_mismatch_cases": 2,
+    "total_candidates": 6
+  },
+  "candidates": [
+    {
+      "username": "kim",
+      "type": "미사용 권한",
+      "permission": "manage_security",
+      "last_used": "2026-05-01",
+      "reason": "90일 이상 미사용"
+    },
+    {
+      "username": "lee",
+      "type": "미사용 권한",
+      "permission": "admin",
+      "last_used": "2026-04-01",
+      "reason": "90일 이상 미사용"
+    },
+    {
+      "username": "park",
+      "type": "미사용 권한",
+      "permission": "read_log",
+      "last_used": "2026-01-01",
+      "reason": "90일 이상 미사용"
+    },
+    {
+      "username": "choi",
+      "type": "미사용 권한",
+      "permission": "export_data",
+      "last_used": null,
+      "reason": "90일 이상 미사용"
+    },
+    {
+      "username": "kim",
+      "type": "부서 불일치",
+      "assigned_department": "개발팀",
+      "current_department": "보안팀",
+      "reason": "권한 부여 당시 부서와 현재 부서가 다름"
+    },
+    {
+      "username": "choi",
+      "type": "부서 불일치",
+      "assigned_department": "마케팅팀",
+      "current_department": null,
+      "reason": "권한 부여 당시 부서와 현재 부서가 다름"
+    }
+  ]
+}
